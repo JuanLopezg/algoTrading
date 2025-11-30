@@ -1,0 +1,23 @@
+# --- Build system ---
+build/
+builddir/
+*.ninja
+meson-logs/
+
+# --- C++ binaries ---
+*.exe
+*.dll
+*.a
+*.o
+*.obj
+*.pdb
+
+# --- Editor ---
+.vscode/
+.idea/
+
+# --- Python junk ---
+__pycache__/
+
+# --- Other ---
+*.log
